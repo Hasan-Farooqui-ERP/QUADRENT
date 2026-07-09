@@ -46,6 +46,7 @@ Quadrent demonstrates the ability to:
 
 ## 🏗️ Repository Structure
 
+```text
 QUADRENT/
 │
 ├── 01-Company-Setup/
@@ -92,21 +93,9 @@ QUADRENT/
 │   └── Access-Review.md
 │
 └── 09-Maintenance-&-Updates/
-├── Update-Validation-Checklist.md
-├── Hotfix-Testing.md
-└── Version-Upgrade-Notes.md
-
-
----
-
-## 🔧 Technologies Used
-
-- **Dynamics 365 Business Central**
-- **Power BI**
-- **Power Automate**
-- **Dataverse**
-- **Excel OData V4**
-- **Azure Active Directory (Permissions)**
+    ├── Update-Validation-Checklist.md
+    ├── Hotfix-Testing.md
+    └── Version-Upgrade-Notes.md
 
 ---
 
