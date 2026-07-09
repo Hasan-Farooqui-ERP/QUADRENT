@@ -97,7 +97,6 @@ QUADRENT/
     ├── Hotfix-Testing.md
     └── Version-Upgrade-Notes.md
 
-
 ---
 
 ## 🔧 Technologies Used
@@ -176,7 +175,6 @@ Quadrent is your **flagship ERP portfolio** — the one that gets you hired.
 **Hasan Farooqui**  
 ERP Support Specialist → Business Central Functional Consultant  
 Ireland  
-
 
 
 
