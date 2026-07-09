@@ -97,6 +97,18 @@ QUADRENT/
     ├── Hotfix-Testing.md
     └── Version-Upgrade-Notes.md
 
+
+---
+
+## 🔧 Technologies Used
+
+- **Dynamics 365 Business Central**
+- **Power BI**
+- **Power Automate**
+- **Dataverse**
+- **Excel OData V4**
+- **Azure Active Directory (Permissions)**
+
 ---
 
 ## 📚 MB‑800 Alignment
@@ -164,5 +176,8 @@ Quadrent is your **flagship ERP portfolio** — the one that gets you hired.
 **Hasan Farooqui**  
 ERP Support Specialist → Business Central Functional Consultant  
 Ireland  
+
+
+
 
 
