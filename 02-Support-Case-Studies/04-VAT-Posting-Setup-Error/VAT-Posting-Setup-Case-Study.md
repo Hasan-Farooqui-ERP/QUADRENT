@@ -172,7 +172,7 @@ This is exactly the type of troubleshooting expected from a Business Central Sup
 ```text
 /02-Support-Case-Studies/04-VAT-Posting-Setup-Error/
 │
-├── 01_Error.jpg
+├── 01_Error.JPG
 ├── 02_GLAccount_Error.JPG
 ├── 03_GLCategory_Error.JPG
 ├── 04_GLAccount_Resolved.JPG
