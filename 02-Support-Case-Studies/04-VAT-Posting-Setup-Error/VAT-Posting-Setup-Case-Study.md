@@ -91,7 +91,7 @@ Two VAT accounts were created:
 | **3250** | Purchase VAT 23% | Liabilities | VAT | Posting |
 
 📸 **Screenshot 04 — Validated G/L Account Card (2250)**  
-![G/L Account Resolved](./04_GLAccount_Resolved.JPG)
+![VAT Category Resolved](./05_VATCategory_Resolved.JPG)
 
 ---
 
@@ -105,7 +105,7 @@ In **G/L Account Categories**, a new category was added:
 This resolved the G/L Account Card validation error.
 
 📸 **Screenshot 05 — VAT Category Created & Validated**  
-![VAT Category Resolved](./05_VATCategory_Resolved.JPG)
+
 
 ---
 
