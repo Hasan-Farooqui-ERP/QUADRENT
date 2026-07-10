@@ -105,7 +105,7 @@ In **G/L Account Categories**, a new category was added:
 This resolved the G/L Account Card validation error.
 
 📸 **Screenshot 05 — VAT Category Created & Validated**  
-
+![G/L Account Resolved](./04_GLAccount_Resolved.JPG)
 
 ---
 
