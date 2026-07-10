@@ -63,7 +63,7 @@ When creating **2250 – Sales VAT 23%**, BC displayed:
 The subcategory **VAT** did not exist under Liabilities.
 
 📸 **Screenshot 02 — G/L Account Card Error**  
-*(Insert screenshot here)*
+![G/L Account Error](./02_GLAccount_Error.JPG)
 
 ---
 
@@ -76,7 +76,7 @@ Opening **G/L Account Categories** showed:
 - Category incomplete (missing Additional Report Definition)
 
 📸 **Screenshot 03 — G/L Account Categories Error**  
-*(Insert screenshot here)*
+![G/L Category Error](./03_GLCategory_Error.JPG)
 
 ---
 
@@ -91,7 +91,7 @@ Two VAT accounts were created:
 | **3250** | Purchase VAT 23% | Liabilities | VAT | Posting |
 
 📸 **Screenshot 04 — Validated G/L Account Card (2250)**  
-*(Insert screenshot here)*
+![G/L Account Resolved](./04_GLAccount_Resolved.JPG)
 
 ---
 
@@ -105,7 +105,7 @@ In **G/L Account Categories**, a new category was added:
 This resolved the G/L Account Card validation error.
 
 📸 **Screenshot 05 — VAT Category Created & Validated**  
-*(Insert screenshot here)*
+![VAT Category Resolved](./05_VATCategory_Resolved.JPG)
 
 ---
 
@@ -120,7 +120,7 @@ Final VAT Posting Setup rows created:
 | EU | EU | 0 | RCO | Reverse Charge | 2250 | 3250 |
 
 📸 **Screenshot 06 — Final Validated VAT Posting Setup**  
-*(Insert screenshot here)*
+![Final VAT Posting Setup](./06_Final_VATPostingSetup.JPG)
 
 ---
 
