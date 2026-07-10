@@ -49,7 +49,7 @@ BC requires:
 These did not exist yet.
 
 📸 **Screenshot 01 — VAT Posting Setup Error**  
-![VAT Posting Setup Error](02-Support-Case-Studies/04-VAT-Posting-Setup-Error/01_Error.jpg)
+![VAT Posting Setup Error](/02-Support-Case-Studies/04-VAT-Posting-Setup-Error/01_Error.jpg)
 
 ---
 
