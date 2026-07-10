@@ -169,6 +169,7 @@ This is exactly the type of troubleshooting expected from a Business Central Sup
 
 ## 8. Files & Evidence
 
+```text
 /02-Support-Case-Studies/VAT-Posting-Setup-Error/
 │
 ├── 01_Error.png
