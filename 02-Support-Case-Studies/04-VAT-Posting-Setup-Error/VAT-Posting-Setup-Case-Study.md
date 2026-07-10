@@ -49,7 +49,7 @@ BC requires:
 These did not exist yet.
 
 📸 **Screenshot 01 — VAT Posting Setup Error**  
-*![VAT Posting Setup Error](./01_Error.jpg)*
+![VAT Posting Setup Error](./01_Error.jpg)
 
 ---
 
@@ -178,7 +178,7 @@ This is exactly the type of troubleshooting expected from a Business Central Sup
 ├── 04_GLAccount_Resolved.png
 ├── 05_VATCategory_Resolved.png
 └── 06_Final_VATPostingSetup.png
-
+```
 
 ---
 
