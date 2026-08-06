@@ -19,8 +19,8 @@
 ---
 
 ## 1. Summary
-During initial VAT configuration in a No‑Data Business Central company, multiple validation errors occurred due to missing VAT G/L accounts, missing G/L Account Subcategories, and duplicate VAT Identifiers.  
-This case study documents the error, root cause, and resolution steps, with screenshots captured before and after correction.
+During the initial configuration of VAT Posting Setup in a Business Central No-Data sandbox, several validation errors prevented the setup from being completed successfully. Investigation identified missing VAT G/L accounts, an undefined G/L Account Subcategory, and duplicate VAT Identifiers. 
+This case study documents the investigation, root cause analysis, corrective actions, and final validation.
 
 ---
 
@@ -92,7 +92,7 @@ Opening **G/L Account Categories** showed:
 
 ---
 
-## 4. ## 4. Investigation & Resolution
+## 4. Investigation & Resolution
 
 ### 4.1 Create VAT G/L Accounts
 Two VAT accounts were created:
@@ -168,7 +168,7 @@ The issue was caused by an incomplete financial configuration in a new Business 
 
 ---
 
-## 7. ## 7. Key Learning
+## 7. Key Learning
 This case demonstrates core MB‑800 skills:
 
 - Understanding VAT Posting Setup structure  
