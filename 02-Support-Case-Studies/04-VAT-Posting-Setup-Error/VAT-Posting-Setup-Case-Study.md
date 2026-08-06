@@ -131,6 +131,9 @@ Final VAT Posting Setup rows created:
 | DOMESTIC-23 | DOMESTIC-23 | 23 | VAT23 | Normal VAT | 2250 | 3250 |
 | EU | EU | 0 | RCO | Reverse Charge | 2250 | 3250 |
 
+### Resolution Outcome
+Following completion of the required configuration, all VAT Posting Setup records validated successfully without further errors. Test posting scenarios confirmed that VAT calculations and G/L account mappings functioned as expected for domestic, export, and reverse-charge transactions.
+
 📸 **Screenshot 06 — Final Validated VAT Posting Setup**  
 ![Final VAT Posting Setup](./06_Final_VATPostingSetup.JPG)
 
@@ -169,7 +172,7 @@ The issue was caused by an incomplete financial configuration in a new Business 
 ---
 
 ## 7. Key Learning
-This case demonstrates core MB‑800 skills:
+This exercise demonstrates practical Business Central functional support activities, including:
 
 - Understanding VAT Posting Setup structure  
 - Creating VAT accounts from scratch  
