@@ -163,8 +163,6 @@ This case demonstrates core MB‑800 skills:
 - Configuring VAT for domestic, export, and EU scenarios  
 - Documenting errors and resolutions professionally  
 
-This is exactly the type of troubleshooting expected from a Business Central Support Consultant.
-
 ---
 
 ## 8. Files & Evidence
