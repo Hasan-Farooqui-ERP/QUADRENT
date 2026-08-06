@@ -7,6 +7,17 @@
 
 ---
 
+| Field | Value |
+|-------|-------|
+| Environment | Business Central (No-Data Sandbox) |
+| Module | Financials – VAT Posting Setup |
+| Issue Type | Configuration / Validation Error |
+| Priority | Medium |
+| Status | Resolved |
+| Resolution | Created required VAT G/L accounts, VAT subcategory, unique VAT identifiers, and completed VAT Posting Setup configuration |
+
+---
+
 ## 1. Summary
 During initial VAT configuration in a No‑Data Business Central company, multiple validation errors occurred due to missing VAT G/L accounts, missing G/L Account Subcategories, and duplicate VAT Identifiers.  
 This case study documents the error, root cause, and resolution steps, with screenshots captured before and after correction.
@@ -14,7 +25,8 @@ This case study documents the error, root cause, and resolution steps, with scre
 ---
 
 ## 2. Background
-Quadrent Sports Apparel is a fresh No‑Data company.  
+A new Business Central No-Data sandbox was provisioned to simulate an initial ERP implementation. As no financial master data or VAT configuration existed, all VAT posting structures, G/L accounts, and supporting setup had to be configured manually before transactions could be posted.
+
 This means:
 
 - No VAT Posting Groups  
@@ -80,7 +92,7 @@ Opening **G/L Account Categories** showed:
 
 ---
 
-## 4. Resolution Steps
+## 4. ## 4. Investigation & Resolution
 
 ### 4.1 Create VAT G/L Accounts
 Two VAT accounts were created:
@@ -134,6 +146,8 @@ Final VAT Posting Setup rows created:
 | Duplicate VAT Identifier | Same identifier used for different VAT % | Assigned unique identifiers |
 | Page validation errors | Incomplete configuration | Completed all required fields |
 
+The issue was caused by an incomplete financial configuration in a new Business Central environment. Required dependencies—including VAT G/L accounts, account subcategories, and unique VAT identifiers—must exist before VAT Posting Setup records can be validated and used for transaction posting.
+
 ---
 
 ## 6. Business Impact
@@ -154,7 +168,7 @@ Final VAT Posting Setup rows created:
 
 ---
 
-## 7. Consultant Commentary
+## 7. ## 7. Key Learning
 This case demonstrates core MB‑800 skills:
 
 - Understanding VAT Posting Setup structure  
@@ -163,9 +177,28 @@ This case demonstrates core MB‑800 skills:
 - Configuring VAT for domestic, export, and EU scenarios  
 - Documenting errors and resolutions professionally  
 
+This exercise reinforced the dependencies between VAT Posting Setup, G/L Account configuration, and Account Categories within Business Central.
+
+Key capabilities demonstrated include:
+
+- Functional troubleshooting of configuration errors
+- Root cause analysis
+- Financial configuration in a new Business Central environment
+- Validation of VAT Posting Setup
+- Documentation of investigation and resolution steps
+
 ---
 
-## 8. Files & Evidence
+## 8. Prevention
+
+To avoid similar issues in future Business Central deployments:
+
+- Configure VAT-related G/L accounts before creating VAT Posting Setup entries.
+- Ensure required G/L Account Categories and Subcategories are available.
+- Use unique VAT Identifiers for each VAT percentage.
+- Validate configuration before testing sales or purchase transactions.
+
+## 9. Files & Evidence
 
 ```text
 /02-Support-Case-Studies/04-VAT-Posting-Setup-Error/
@@ -180,7 +213,7 @@ This case demonstrates core MB‑800 skills:
 
 ---
 
-## 9. Status
+## 10. Status
 ✅ **Completed**  
 System validated and ready for VAT‑related posting scenarios.
 
